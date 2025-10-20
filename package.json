@@ -1,0 +1,39 @@
+{
+  "name": "mu-helpers",
+  "version": "1.0.0",
+  "description": "A collection of javascript helpers to be used in the semantic.works ecosystem",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "prepack": "tsc",
+    "prepare": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elpoelma/mu-helpers.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/elpoelma/mu-helpers/issues"
+  },
+  "homepage": "https://github.com/elpoelma/mu-helpers#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/express": "^4.17.21",
+    "body-parser": "^2.2.0",
+    "env-var": "^7.0.0",
+    "express": "^4.21.2",
+    "express-http-context": "^2.0.1",
+    "sparql-client-2": "https://github.com/erikap/node-sparql-client.git",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "typescript": "^5.9.3"
+  }
+}
