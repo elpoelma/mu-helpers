@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of javascript helpers to be used in the semantic.works ecosystem",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./index.js"
   },
   "type": "module",
   "scripts": {
@@ -11,7 +11,9 @@
     "prepare": "tsc"
   },
   "files": [
-    "dist"
+    "index.js",
+    "server.js",
+    "sparql.js"
   ],
   "repository": {
     "type": "git",

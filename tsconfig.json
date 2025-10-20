@@ -2,6 +2,8 @@
   "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
     "rewriteRelativeImportExtensions": true,
-    "outDir": "dist"
-  }
+    "outDir": "."
+  },
+  "include": ["src/**/*"],
+  "exclude": []
 }
